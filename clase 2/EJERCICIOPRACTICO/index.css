@@ -1,0 +1,35 @@
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    width: 400px;
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px 8px 4px #d3d;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+.titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
+}
+.cuerpo{
+    padding: 10px;
+}
+image{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+h1{
+   text-align: center;
+}
+
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
